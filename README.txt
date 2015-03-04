@@ -25,6 +25,6 @@ The meat:
 #	element does not exist, in which case it returns (-1)
 # This *should* run, in the average case, in faster than O(logn) time..
 # The recursion stack will take up a lot of space. Could theoretically be
-#	improved by freeing the temporary array prior to each recursion call, or,
-#	by storing local start and end indices instead of reconstructing the array
-#	each time.
+#	improved by freeing the temporary array prior to each recursion call, 
+#	or, by storing local start and end indices instead of reconstructing 
+#	the array each time.
